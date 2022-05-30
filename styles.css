@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Hurricane&family=Kanit:ital,wght@1,600&family=Poppins:ital,wght@0,400;0,800;1,200;1,300;1,600&family=Rubik:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #D9231A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav */
+nav{
+    background-color: #495388;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 10vh;
+}
+
+h1{
+    font-family: "Poppins";
+}
+
+.menu-box {
+    display: flex;
+    width: 430px;
+}
+
+.links {
+    list-style: none;
+    position: relative;
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+}
+
+.links a{
+    color: #ffffff;
+    position: relative;
+    align-text: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.links a:hover{
+    color: red;
+}
+
+.current a{
+    color: red;
+}
+
+/* content */
+    /* home content */
+#home-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6EC8CB;
+    color: #D9231A;
+    height: 80vh;
+    width: 100%;
+}
+
+#home-box h1{
+    font-size: 10vw;
+}
+
+#home-box a{
+    align-items: right;
+}
+
+#partner-img {
+    width: 70%;
+}
+
+.more {
+    color: #021331;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+}
+
+.more :hover{
+    color: red;
+}
+
+    /*other content */
+
+.about-box {
+    margin: 20px;
+    padding: 50px;
+    width: 80vw;
+    background-color: #6EC8CB;
+    text-align: center;
+    min-height: 90vh;
+}
+
+.about-img {
+    width: 100%;
+}
+
+.next a{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/* scroll up */
+.scrollup {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 15px;
+    background-color: #6EC8CB;
+    color: #495388;
+    border: none;
+    padding-right: 2px;
+    width: 15px;
+    display: none;
+}
+
+.scrollup:hover {
+    color: #D9231A;
+}
+
+sup{
+    font-size: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #021331;
+    color: #ffffff;
+    width: 100%;
+}
